@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, NavbarBrand } from 'reactstrap'
 
-const Navbar = () => {
+const NavbarHeader = () => {
     return (
         <Navbar dark color="primary">
             <div className="container">
@@ -11,4 +11,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavbarHeader
